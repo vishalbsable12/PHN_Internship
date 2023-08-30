@@ -1,0 +1,111 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 24px;
+}
+
+nav {
+  margin-top: 24px;
+}
+
+nav ul {
+  float: left;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+nav a {
+  color: #000;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+main {
+  padding: 24px;
+}
+
+section {
+  margin-top: 24px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 24px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-text {
+    font-size: 24px;
+    padding: 16px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .hero-text {
+    font-size: 28px;
+    padding: 20px;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .hero-text {
+    font-size: 36px;
+    padding: 24px;
+  }
+}
